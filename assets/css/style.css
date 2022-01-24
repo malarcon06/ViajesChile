@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Neonderthaw&display=swap');
+
+*{
+    color: white;
+}
+
+:root{
+    --bgMainColor: rgb(45, 178, 223);
+}
+
+body{
+    background-color: black;
+}
+
+h1,h2,h3,p,a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.navbar-brand{
+    font-size: 2.2rem;
+    font-family: 'Neonderthaw', cursive;
+}
+
+
+.icon-container{
+    background-color: var(--bgMainColor)
+}
+
+.icon-container i{
+    font-size: 1.8rem;
+}
+
+.card img{
+    height: 15rem;
+    object-fit: cover;
+}
+
+.card .card-body{
+    background-color: var(--bgMainColor)
+}
+
+
+
+form button{
+    border: none !important;
+    background-color: var(--bgMainColor) !important;
+}
+
+form textarea{
+    color: black;
+}
+
+footer{
+    background-color: var(--bgMainColor);
+}
+
+footer h3{
+    font-family: 'Neonderthaw', cursive;
+    font-size: 2.2rem;
+    cursor: default;
+}
+
+footer button{
+    border: none;
+    background: none;
+    margin: 0 .5rem;
+}
+
+footer i{
+    font-size: 2.2rem;
+}
